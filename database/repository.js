@@ -88,6 +88,7 @@ module.exports.delete = async (data) => {
         console.log("ERROR-repository-delete: ", err);
     }
     return response;
+    
 };
 
 module.exports.findOne = async (data) => {
